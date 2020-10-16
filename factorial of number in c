@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int x,fact=1,i;
+	printf("enter a value");
+	scanf("%d",&x);
+	i=x;
+
+	while(i>=1)
+	{
+	//	i==x;
+		fact=fact*i;
+		i--;
+	}
+	
+	printf("%d",fact);
+	return 0;
+}
